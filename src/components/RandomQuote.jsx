@@ -97,11 +97,11 @@ export default function RandomQuote() {
           <svg className="w-6 md:w-8 text-white/40" fill="currentColor" viewBox="0 0 24 24">
             <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/>
           </svg>
-          <p className="text-xl md:text-3xl leading-relaxed mb-6 ml-6">
+          <p className="text-xl md:text-3xl leading-relaxed mb-6 ml-6 font-chakra-petch-regular">
             {quote.content}
           </p>
           {quote.author && (
-            <p className="text-xs md:text-sm text-white/75 text-right">
+            <p className="text-lg md:text-xl text-white/75 text-right font-chela-one-regular">
               ~ {quote.author}
             </p>
           )}
